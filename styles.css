@@ -1,0 +1,417 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Arima", sans-serif;
+}
+
+
+body {
+    background-color: white;
+}
+
+.container {
+    background-color: #fff;
+    width: 100%;
+    height: 928px;
+}
+
+.bgcontainer {
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 99.9%;
+    height: 928px;
+}
+
+.bgcontainer2 {
+    margin: 4.32px;
+    border-radius: 20px;
+    background-color: #F0F7FF;
+    width: 99.5%;
+    height: 916.819px;
+}
+
+.Delicacy {
+    margin-left: 30px;
+    width: 171.572px;
+    height: 57.191px;
+    color: #404040;
+    font-size: 44.242px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.head {
+    display: inline;
+}
+
+
+.onelinedish {
+    display: flex;
+}
+
+/* normal horizontal navbar */
+.navright {
+    display: block;
+    background-color: transparent;
+    float: left;
+    padding: 10px; 
+    margin-left: 65px;
+}
+
+.navright ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navright li {
+    padding-left: 50px;
+/*     margin: 0 10px; */ 
+}
+
+.navright a {
+    text-decoration: none;
+    color: #969696;
+    font-family: Roboto;
+    font-size: 17.525px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navright a:hover,
+.navright a.active {
+    color: black;
+    
+}
+
+.navnav {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.navleft ul {
+    list-style: none;
+}
+
+.navleft a {
+    text-decoration: none;
+    writing-mode: sideways-lr;
+    margin-top: 88.43px;
+    color: #969696;
+    font-family: Roboto;
+    font-size: 17.525px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 0.3s;
+}
+
+.circle {
+    display: block;
+    text-align: center;
+}
+
+.navleft a:hover,
+.circle,
+.navleft a.active {
+    color: black;
+}
+
+.dishcontainer {
+    margin-left: 35px;
+}
+
+.bgcontainerdish {
+    box-shadow: 0px 2.15814px 5.39535px 0px rgba(0, 0, 0, 0.15); 
+    border-radius: 20px;
+    background-color: #fff;
+    width: 623.702px;
+    height: 531.981px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgcontainerdish2 {
+    border-radius: 20px;
+    background-color: #F0F7FF;
+    width: 606.446px;
+    height: 518.194px; 
+}
+
+.chickensteak {
+    padding-top: 15px;
+    padding-left: 10px;
+    color: #404040;
+    font-size: 23.978px;
+    font-weight: 800;
+}
+
+.chickensteakcontent {
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 451.051px;
+    height: 64.744px;
+    color: #404040;
+    font-family: Roboto;
+    font-size: 13.208px;
+    font-weight: 400;
+    line-height: 123.688%; 
+}
+
+.ingredients{
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: #969696;
+    font-family: Arima Madurai;
+    font-size: 19.423px;
+    font-weight: 800;
+}
+
+.itemlist {
+    width: 325.549px;
+    height: 94.079px; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items {
+    margin-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    width: 140.799px;
+    height: 39.566px; 
+    align-items: center;
+}
+
+.itembg1 {
+    margin-right: 6px;
+    box-shadow: 0px 2.15814px 5.39535px 0px rgba(0, 0, 0, 0.15); 
+    border-radius: 8px;
+    width: 49.393px;
+    height: 39.566px; 
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itembg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 48.393px;
+    height: 38.566px;
+    background-color: #F0F7FF;
+}
+
+.itemcontentchicken {
+    color: #404040;
+    font-family: Roboto;
+    font-size: 10.551px;
+    font-weight: 500;
+}
+
+.itemcontentp {
+    color: #969696;
+    font-family: Roboto;
+    font-size: 8.124px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.itemsright {
+    margin-right: 28px;
+}
+
+.ingredientsbut {
+    width: 128.409px;
+    height: 24.055px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-top: 15px;
+    background-color: #408EBA;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 7.99px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.nutritionalvalues {
+    padding-left: 10px;
+    margin-top: 25px;
+    color: #969696;
+    font-size: 19.423px;
+    font-weight: 800;
+}
+
+.nutritionvaluecard {
+    width: 334px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+
+.valuecard {
+    width: 70.14px;
+    height: 80.93px; 
+    box-shadow: 0px 2.15814px 5.39535px 0px rgba(0, 0, 0, 0.15); 
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valurcardbg {
+    display: block;
+    text-align: center;
+    width: 68.14px;
+    height: 78.93px; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #F0F7FF;
+}
+
+.valuecardh3 {
+    margin-top: 9px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 19.423px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.valuecardh4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 12.949px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.valuecardh42 {
+    color: #969696;
+    font-family: Roboto;
+    font-size: 12.949px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.imgimg{
+    position: absolute;
+    top: 20%;
+    right: 35%;
+}
+
+
+
+
+
+
+.recipe {
+    width: 128.409px;
+    height: 24.055px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-top: 15px;
+    background-color: #408EBA;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 7.99px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.recipe2 {
+    width: 128.409px;
+    height: 24.055px;
+    border-radius: 5px;
+    border-color: #408EBA;
+    margin-top: 15px;
+    background-color: transparent;
+    color: #408EBA;
+    font-family: Roboto;
+    font-size: 7.99px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.morerecipies {
+    margin-left: 100px;
+    color: #404040;
+    font-family: Arima Madurai;
+    font-size: 23.978px;
+    font-weight: 800;
+}
+
+.morecontainer {
+    display: flex;
+    justify-content: space-around;
+    width: 1152px;
+    margin-left: 100px;
+}
+
+.morecontainerhead {
+    position: relative;
+    align-items: center;
+}
+
+.image-container {
+    width: 142.437px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 10%; 
+    transform: translateY(-50%);
+}
+
+
+.morecontainerbg {
+    box-shadow: 0px 2.15814px 5.39535px 0px rgba(0, 0, 0, 0.15); 
+    width: 142.437px;
+    height: 130.567px; 
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.morecontainerbg2 {
+    text-align: center;
+    width: 142.437px;
+    height: 127.567px; 
+    border-radius: 20px;
+    background-color: #F0F7FF;
+}
+
+.morecontenth5 {
+    padding-top: 60px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 15.107px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.morecontentp {
+    color: #969696;
+    font-family: Roboto;
+    font-size: 12.949px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
