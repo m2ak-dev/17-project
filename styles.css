@@ -5,7 +5,6 @@
     font-family: "Arima", sans-serif;
 }
 
-
 body {
     background-color: white;
 }
@@ -50,6 +49,44 @@ body {
 .onelinedish {
     display: flex;
 }
+
+/* mobile menu */
+.mobile-menu {
+    display: none;
+}
+
+.menu-icon {
+    display: block; 
+    cursor: pointer; 
+}
+
+.menu-items {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+}
+.menu-items li {
+    margin: 10px 0;
+}
+
+.menu-items li a {
+    text-decoration: none;
+    color: #969696;
+    font-family: Roboto;
+    font-size: 17.525px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+/* end of responsive */
 
 /* normal horizontal navbar */
 .navright {
@@ -414,4 +451,29 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+/* Responcive start */
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+
+    .mobile-menu {
+        display: block; 
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-items.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navright {
+        display: none;
+    }
 }
